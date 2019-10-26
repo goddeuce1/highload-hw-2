@@ -15,5 +15,4 @@ func main() {
 	router.HandleFunc("/blog", handlers.HandlerBlog).Methods("GET")
 
 	http.ListenAndServe(":8080", router)
-
 }
